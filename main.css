@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 238);
+}
+header {
+    text-align: center;
+}
+.tools {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+textarea {
+    height: 35px;
+    width: 400px;
+    border-radius: 25px;
+    resize: none;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    border-spacing: 25px;
+}
+.divNote {
+    width: 250px;
+    height: 300px;
+    margin: 15px;
+    border-bottom-right-radius: 5%;
+}
+.note {
+    word-wrap: break-word;
+    padding: 20px;
+}
+.del {
+    float: right;
+}
+.edit {
+    float: left;
+}
+.del, .edit {
+    font-size: 12px;
+    cursor: pointer;
+    border-bottom-right-radius: 5%;
+    background-color: #303030;
+    color: #FFF;
+}
