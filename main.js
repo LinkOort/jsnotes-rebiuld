@@ -11,10 +11,10 @@ bSubmmit.addEventListener("click", function(createNote) {
     insertContent.appendChild(divNote);
 
     var edit = document.createElement("button");
+    edit.addEventListener("click", edtNote);
     edit.classList.add("edit");
     edit.setAttribute("id", "edit");
     edit.textContent = "Editar"
-    edit.addEventListener("click", edtNote);
     document.body.appendChild(edit);
     insertContent.appendChild(edit);
     
@@ -78,7 +78,7 @@ function delNote(e) {
 }
 
 function edtNote(e) {
-
+   console.log("pressed?") 
 }
 
 
