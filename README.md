@@ -1,1 +1,1 @@
-# jsnotes-rebiuld
+# jsnotes-rebuild
