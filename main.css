@@ -1,47 +1,23 @@
 * {
     margin: 0;
-    padding: 0;
-    background-color: rgb(255, 255, 238);
 }
-header {
-    text-align: center;
+.noteArea {
+    align-items: center;
+    justify-content: center;
 }
-.tools {
-    position: fixed;
-    bottom: 0px;
-    right: 0px;
+.sample {
+    display: inline-block;
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    padding: 15px;
+    margin: 1em;
+    border-top-left-radius: 3%;
+    border-bottom-right-radius: 3%;
 }
-textarea {
-    height: 35px;
-    width: 400px;
-    border-radius: 25px;
-    resize: none;
-}
-.content {
-    display: flex;
-    flex-wrap: wrap;
-    border-spacing: 25px;
-}
-.divNote {
-    width: 250px;
-    height: 300px;
-    margin: 15px;
-    border-bottom-right-radius: 5%;
-}
-.note {
-    word-wrap: break-word;
-    padding: 20px;
-}
-.del {
-    float: right;
-}
-.edit {
-    float: left;
-}
-.del, .edit {
-    font-size: 12px;
-    cursor: pointer;
-    border-bottom-right-radius: 5%;
-    background-color: #303030;
-    color: #FFF;
+.sample:hover {
+    transition: 250ms;
+    transition-delay: 300ms;
+    width: 215px;
+    height: 215px;
 }
