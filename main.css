@@ -38,6 +38,11 @@
     align-items: center;
     justify-content: center;
 }
+.sampleText {
+    display: inline-block;
+    background-color: #9A93F2;
+    word-break: break-all;
+}
 .sample {
     display: inline-block;
     background-color: #9A93F2;
