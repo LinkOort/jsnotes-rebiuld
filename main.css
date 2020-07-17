@@ -1,6 +1,9 @@
 * {
     margin: 0;
+}
+body {
     background-color: #fff1ff;
+    transition:all 750ms;
 }
 .topnav {
     width: 100%;
@@ -14,7 +17,7 @@
     font-size: 17px;
     padding: 10px 14px 10px;
     background-color: #9A93F2;
-    color: white;
+    color: #FFF;
 }
 .txt {
     display: flex;
@@ -22,7 +25,8 @@
     justify-content: center;
 }
 .txtarea {
-    background-color: #FFF;
+    background-color: #F5FAD5;
+    border-radius: 15px;
     margin: 2em;
     width: 250px;
     height: 100px;
@@ -54,7 +58,7 @@
     border-bottom-right-radius: 3%;
     transition: 250ms;
 }
-.sample:hover {
+#sample:hover {
     transition: 250ms;
     transition-delay: 300ms;
     width: 215px;
